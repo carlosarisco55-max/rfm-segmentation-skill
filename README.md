@@ -1,6 +1,17 @@
 # RFM Customer Segmentation
 
+[![CI](https://github.com/carlosarisco55-max/rfm-segmentation-skill/actions/workflows/ci.yml/badge.svg)](https://github.com/carlosarisco55-max/rfm-segmentation-skill/actions/workflows/ci.yml)
+
 Herramienta en Python que clasifica a los clientes de cualquier negocio en 6 segmentos accionables (Champions, Clientes fieles, En riesgo, Perdidos...) usando el método **RFM** (Recencia, Frecuencia, Monetario) — una de las técnicas de segmentación más usadas en marketing/CRM.
+
+Este repo tiene **dos variantes** del mismo método, cada una en su propia carpeta y sin dependencias entre sí:
+
+| | Puntuación | Segmentos | Cuándo usarla |
+|---|---|---|---|
+| **Raíz** (`scripts/rfm_generic.py`) | Quintiles 1-5 (125 celdas) | 6 reglas (Champions, Perdidos...) | Segmentación fina, bases grandes |
+| **[`rfm-333/`](rfm-333/)** | 1-3 por eje (27 "cajones") | 6 grupos con acción | Modelo más simple de explicar en comité, incluye avisos sobre terciles automáticos y variables redundantes |
+
+Las dos son scripts de Python de librería estándar (sin pandas ni dependencias que instalar) y están empaquetadas también como *skill* de Claude Code.
 
 Nacida como generalización del análisis hecho en [`marketing-campaign-customer-personality-analysis`](https://github.com/carlosarisco55-max/marketing-campaign-customer-personality-analysis): en vez de dejar ese cálculo atado a un solo dataset, lo convertí en una herramienta reutilizable para cualquier tabla de clientes o transacciones.
 
