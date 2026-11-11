@@ -74,6 +74,11 @@ Perdidos:                   333 clientes (14.9%), valor medio    67€
 
 Insight accionable: los "en riesgo" gastaban casi lo mismo que los Champions — son el objetivo prioritario de una campaña de reactivación antes de darlos por perdidos.
 
+## Ejemplo en Excel y caso de estudio
+
+- Excel de ejemplo con fórmulas vivas (variante 333, datos inventados): [`rfm-333/ejemplo/RFM_333_ejemplo.xlsx`](rfm-333/ejemplo/RFM_333_ejemplo.xlsx)
+- Caso de estudio: [carlosarisco55-max.github.io/casos/segmentacion-rfm](https://carlosarisco55-max.github.io/casos/segmentacion-rfm/)
+
 ## Nota técnica
 
 Este proyecto está empaquetado también como **skill de [Claude Code](https://claude.com/claude-code)** (`SKILL.md` en la raíz), lo que permite invocarlo desde una conversación con el agente simplemente pasándole una tabla de clientes — pero el script (`scripts/rfm_generic.py`) funciona igual de bien como herramienta de línea de comandos independiente, sin necesidad de Claude Code.

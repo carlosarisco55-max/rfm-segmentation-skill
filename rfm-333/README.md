@@ -24,4 +24,10 @@ Prueba también `--auto-terciles` para ver por qué cortar por terciles automát
 
 `ejemplo/clientes_ejemplo.csv` son 500 clientes inventados para probar.
 
+## Ejemplo en Excel (descargable)
+
+[`ejemplo/RFM_333_ejemplo.xlsx`](ejemplo/RFM_333_ejemplo.xlsx) es el mismo método en un libro de Excel con fórmulas vivas sobre esos 500 clientes inventados: parámetros editables (fecha de corte, ventana y cortes de R, F y M), los 27 cajones, los 6 grupos con su acción y una hoja de lecturas previas (clientes de una compra, terciles automáticos, media frente a mediana y correlación F-M). Da exactamente las mismas cifras que `rfm_333.py`. Se genera con `python ejemplo/build_excel_ejemplo.py ejemplo/clientes_ejemplo.csv ejemplo/RFM_333_ejemplo.xlsx` (requiere `openpyxl`).
+
+Caso de estudio completo, con el ejercicio original de 10.000 clientes y sus hallazgos: [carlosarisco55-max.github.io/casos/segmentacion-rfm](https://carlosarisco55-max.github.io/casos/segmentacion-rfm/)
+
 Ver `SKILL.md` para el método completo (7 pasos), las fórmulas de Excel equivalentes y cómo presentar el resultado en una reunión.
