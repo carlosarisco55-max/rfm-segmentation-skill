@@ -70,3 +70,8 @@ Si el usuario pide esto:
 5. Recuerda al usuario cerrar Power BI Desktop del todo antes de editar los archivos por fuera y volver a abrirlo — si no, Desktop sobrescribe los cambios externos con su version en memoria (leccion ya aprendida en ese mismo proyecto).
 
 No prometas generar visuales complejos con un solo comando — es un trabajo de edicion de varios archivos, comunicalo asi.
+
+## Siguiente paso
+
+- `ficha-cliente`: junta esta segmentación con las demás (ciclo de vida, RFM, patrón de cesta, propensión y control) en una fila por cliente con qué, cuándo, palanca de comportamiento y prioridad. Lee el CSV de salida tal cual.
+- `medicion-incremental`: aparta el grupo de control ANTES de activar ningún segmento y mide la venta incremental real.
